@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS from Bootstrap 4.6 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <title>MusicLinkFoundation</title>
 </head>
 
@@ -13,40 +14,46 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-            <img src="/docs/4.6/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+            <img src="images/Logo@2x.png" width="100%" height="30" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+          <div class="navbar-nav custom-nav">
             <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#">Get Involved</a>
+            <a class="nav-link" href="#">Apply Now</a>
+            <a class="nav-link" href="#">About Us</a>
+            <div class="nav-sep"></div>
+            <div class="navbar-nav custom-nav">
+                <a class="nav-link" href="#">Sign In</a>
+              </div>
           </div>
         </div>
     </nav>
 
     <!-- Hero Jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid custom-jumbo">
         <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1 class="display-4">Bringing Music Lessons To Children In Need</h1>
+          <p class="lead">The MusicLink Foundation has served over 7,600 students in all 50 states with teachers donating over 564,000 hours of instruction, equivalent to over $15.8 million of in-kind service to the program.</p>
+          <button type="button" class="btn btn-primary">Learn More</button>
         </div>
     </div>
 
     <!-- Spotlight Cards -->
-    <h1>Spotlight Highlight</h1>
+    <h1 class="header">Spotlight Highlight</h1>
     <div class="container-fluid">
         <div class="row">
 
             <!-- Student Card -->
             <div class="col-md-4 col-sm-12">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="images/student-spot.png" class="card-img-top" alt="Student Image">
+                    <div class="spot-title">Student</div>
                     <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas congue quisque egestas diam. Sit amet commodo nulla facilisi nullam vehicula ipsum a. </p>
                     </div>
                 </div>
             </div>
@@ -54,9 +61,10 @@
             <!-- Teacher Card -->
             <div class="col-md-4 col-sm-12">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="images/teacher-spot.png" class="card-img-top" alt="Teacher Image">
+                    <div class="spot-title">Teacher</div>
                     <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas congue quisque egestas diam. Sit amet commodo nulla facilisi nullam vehicula ipsum a. </p>
                     </div>
                 </div>
             </div>
@@ -64,9 +72,10 @@
             <!-- Alumni Card -->
             <div class="col-md-4 col-sm-12">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="images/alumni-spot.png" class="card-img-top" alt="Alumni Image">
+                    <div class="spot-title">Alumni</div>
                     <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas congue quisque egestas diam. Sit amet commodo nulla facilisi nullam vehicula ipsum a. </p>
                     </div>
                 </div>
             </div>
@@ -74,26 +83,38 @@
     </div>
 
     <!-- Get to know us more -->
-    <h1>Get to Know Us More</h1>
-    <div>
-        <div>
-            <h2>Our Mission</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas congue quisque egestas diam. Sit amet commodo nulla facilisi nullam vehicula ipsum a. Mi proin sed libero enim sed faucibus turpis in eu. Aliquet porttitor lacus luctus accumsan tortor posuere ac.</p>
+    <h1 class="header">Get to Know Us More</h1>
+    <div id="container-flex">
+        <div id="text">
+            <div id="mission">
+                <h2>Our Mission</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas congue quisque egestas diam. Sit amet commodo nulla facilisi nullam vehicula ipsum a. Mi proin sed libero enim sed faucibus turpis in eu. Aliquet porttitor lacus luctus accumsan tortor posuere ac.</p>
+            </div>
+            <div id="work">
+                <h2>How It Works</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas congue quisque egestas diam. Sit amet commodo nulla facilisi nullam vehicula ipsum a. Mi proin sed libero enim sed faucibus turpis in eu. Aliquet porttitor lacus luctus accumsan tortor posuere ac.</p>
+            </div>
+            <div id="help">
+                <h2>How You Can Help</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas congue quisque egestas diam. Sit amet commodo nulla facilisi nullam vehicula ipsum a. Mi proin sed libero enim sed faucibus turpis in eu. Aliquet porttitor lacus luctus accumsan tortor posuere ac.</p>
+            </div>
         </div>
-        <div>
-            <h2>How It Works</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas congue quisque egestas diam. Sit amet commodo nulla facilisi nullam vehicula ipsum a. Mi proin sed libero enim sed faucibus turpis in eu. Aliquet porttitor lacus luctus accumsan tortor posuere ac.</p>
-        </div>
-        <div>
-            <h2>How You Can Help</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas congue quisque egestas diam. Sit amet commodo nulla facilisi nullam vehicula ipsum a. Mi proin sed libero enim sed faucibus turpis in eu. Aliquet porttitor lacus luctus accumsan tortor posuere ac.</p>
+        <div id="imgs">
+            <div id="img1" class="img-div">
+                <img class="get-img" src="images/get-to-know1.jpg" alt="Violin">
+            </div>
+            <div id="img2" class="img-div">
+                <img class="get-img" src="images/get-to-know2.jpg" alt="Piano">
+            </div>
+            <div id="img3" class="img-div">
+                <img class="get-img" src="images/get-to-know3.png" alt="Music Composition">
+            </div>
+            <div id="img4" class="img-div">
+                <img class="get-img" src="images/get-to-know4.png" alt="Guitar">
+            </div>
         </div>
     </div>
-    <div>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-    </div>
+        
 
     <!-- Footer -->
 
