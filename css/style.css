@@ -2,6 +2,10 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #37538C;
+}
 h2 {
     font-family: 'Montserrat', sans-serif;
     color: #37538C;
