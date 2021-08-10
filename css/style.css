@@ -16,49 +16,12 @@
     background-size: 90em;
     background-position-y: center;
 }
-/* Grid is not working, going to try flex */
-/* #get-to-know {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "mission mission img-1 img-1 img-2 img-2"
-    "mission mission img-1 img-1 img-1 img-2"
-    "work work img-1 img-1 img-2 img-2"
-    "work work img-3 img-3 img-4 img-4"
-    "help1 help1 img-3 img-3 img-4 img-4"
-    "help1 help1 img-3 img-3 img-4 img-4"
-    ;
-} */
-/* #mission {
-    grid-area: mission;
-}
-#work {
-    grid-area: work;
-}
-#help {
-    grid-area: help1; 
-} */
-/* #img-1 {
-    grid-area: img-1;
-    width: 50vw;
-}
-#img-2 {
-    grid-area: img-2;
-    width: 50vw;
-}
-#img-3 {
-    grid-area: img-3;
-    width: 50vw;
-}
-#img-4 {
-    grid-area: img-4;
-    width: 50vw;
-} */
+
 
 /* Big Flex container */
 #container-flex {
     display: flex;
+    justify-content: center;
 }
 #text {
     display: flex;
@@ -93,4 +56,26 @@
 }
 .get-img {
     width: 100%;
+}
+.custom-footer {
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+}
+#flex-footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+#social-icons img{
+    width: 2em;
+}
+#copywrite {
+    background-image: linear-gradient(to right, #29ABE2, #309CC4);
+    text-align: right;
+    padding-bottom: none;
+    margin-bottom: none;
 }
