@@ -1,5 +1,7 @@
+/* Header and Nav */
 .header {
     text-align: center;
+    padding: 2em;
 }
 .custom-nav {
     margin-left: auto;
@@ -9,16 +11,26 @@
     background-color: #37538C;
     width: 0.2em;
 }
+.nav-link {
+    color: #29ABE2 !important;
+}
+.nav-link2 {
+    color: #37538C !important;
+}
+
+/* Hero */
 .custom-jumbo {
     text-align: center;
     background-image: url(../images/hero-img.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-size: 90em;
     background-position-y: center;
+    color: #fff;
 }
 
 
-/* Big Flex container */
+/* Main content flex container */
 #container-flex {
     display: flex;
     justify-content: center;
@@ -57,7 +69,10 @@
 .get-img {
     width: 100%;
 }
+
+/* Footer */
 .custom-footer {
+    margin-top: 2em; 
     padding-bottom: 0em;
     margin-bottom: 0em;
 }
