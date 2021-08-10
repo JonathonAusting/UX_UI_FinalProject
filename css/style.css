@@ -1,3 +1,18 @@
+/* body */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #37538C;
+}
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #37538C;
+}
 /* Header and Nav */
 .header {
     text-align: center;
@@ -24,9 +39,11 @@
     background-image: url(../images/hero-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: center;
+    background-position-y: -5em;
     color: #fff;
 }
+
+/* Spotlights */
 
 
 /* Main content flex container */
@@ -74,6 +91,7 @@
     margin-top: 2em; 
     padding-bottom: 0em;
     margin-bottom: 0em;
+    padding-top: 0em;
 }
 #flex-footer {
     display: flex;
@@ -83,6 +101,18 @@
 #footer-nav {
     display: flex;
     flex-direction: column;
+}
+.footer-tag {
+    font-family: 'Montserrat', sans-serif;
+    color: #29ABE2;
+}
+.foot-link {
+    padding: .5em;
+    color: #37538C;
+}
+.foot-brand {
+    width: 10em;
+    padding-bottom: 2em;
 }
 #social-icons img{
     width: 2em;
